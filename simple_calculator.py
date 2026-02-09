@@ -22,7 +22,7 @@ class Calculator:
         return a ** b
 
 if __name__ == "__main__":
-    calculus = Calculator()
+    calc = Calculator()
     print("Addition: 5 + 3 =", calc.add(5, 3))
     print("Subtraction: 5 - 3 =", calc.subtract(5, 3))
     print("Multiplication: 5 * 3 =", calc.multiply(5, 3))
