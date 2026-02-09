@@ -20,6 +20,9 @@ class Calculator:
     
     def power(self, a, b):
         return a ** b
+    
+    def powerOfTwo(self, a):
+        return a ** 2
 
 if __name__ == "__main__":
     calc = Calculator()
