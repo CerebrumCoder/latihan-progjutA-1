@@ -18,6 +18,9 @@ class Calculator:
             raise ValueError("Cannot perform modulo by zero.")
         return a % b
     
+    def power(self, a, b):
+        return a ** b
+
 if __name__ == "__main__":
     calc = Calculator()
     print("Addition: 5 + 3 =", calc.add(5, 3))
