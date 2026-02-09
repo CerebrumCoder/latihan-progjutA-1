@@ -1,17 +1,17 @@
 class Calculator:
-    def add(self, a, b):
-        return a + b
+    def add(self, u, i):
+        return u + i
 
-    def subtract(self, a, b):
-        return a - b
+    def subtract(self, u, i):
+        return u - i
 
-    def multiply(self, a, b):
-        return a * b
+    def multiply(self, u, i):
+        return u * i
 
-    def divide(self, a, b):
-        if b == 0:
+    def divide(self, u, i):
+        if u == 0:
             raise ValueError("Cannot divide by zero.")
-        return a / b
+        return u / i
     
     def modulo(self, a, b):
         if b == 0:
@@ -22,7 +22,7 @@ class Calculator:
         return a ** b
 
 if __name__ == "__main__":
-    calc = Calculator()
+    calculus = Calculator()
     print("Addition: 5 + 3 =", calc.add(5, 3))
     print("Subtraction: 5 - 3 =", calc.subtract(5, 3))
     print("Multiplication: 5 * 3 =", calc.multiply(5, 3))
